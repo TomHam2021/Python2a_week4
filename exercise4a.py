@@ -29,7 +29,7 @@ def only_numbers(funcion):   # outer function
 
 
 @only_numbers
-def add_number(s: str) -> bool:
+def add_number(s: str) -> bool:  # deta känns konstigt.. returnerar funktionen rätt?
     print("Add number: ", s)
     numbers.append(s)
 
